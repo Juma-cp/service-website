@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Cancelled | Custom Service</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">CustomService<span>.</span></a>
+        </div>
+    </nav>
 
+    <main class="cancel-page">
+        <div class="container">
+            <div class="cancel-card">
+                <div class="cancel-icon">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+                <h1>Payment Cancelled</h1>
+                <p class="cancel-message">Your payment was not completed. No charges have been made to your account.</p>
+                
+                <div class="cancel-reasons">
+                    <h3>Common reasons:</h3>
+                    <ul>
+                        <li>You closed the checkout window</li>
+                        <li>Payment was declined by your bank</li>
+                        <li>Technical issue during processing</li>
+                    </ul>
+                </div>
+                
+                <div class="cancel-actions">
+                    <a href="/" class="btn btn-outline">
+                        <i class="fas fa-home"></i> Back to Home
+                    </a>
+                    <a href="payment.html" class="btn btn-primary">
+                        <i class="fas fa-redo"></i> Try Again
+                    </a>
+                </div>
+                
+                <p class="cancel-note">
+                    <i class="fas fa-question-circle"></i>
+                    Need help? <a href="mailto:support@yourwebsite.com">Contact our support team</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Include footer -->
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
