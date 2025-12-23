@@ -1,0 +1,16 @@
+{
+  "name": "custom-service-website",
+  "version": "1.0.0",
+  "description": "Custom service website with Stripe integration",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stripe": "^14.9.0",
+    "resend": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  }
+}
