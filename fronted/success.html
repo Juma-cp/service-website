@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful | Custom Service</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">CustomService<span>.</span></a>
+        </div>
+    </nav>
+
+    <main class="success-page">
+        <div class="container">
+            <div class="success-card">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h1>Payment Successful!</h1>
+                <p class="success-message">Thank you for your purchase. We've received your payment and will begin processing your order.</p>
+                
+                <div class="next-steps">
+                    <h3>Next Steps:</h3>
+                    <ol>
+                        <li>Check your email for a confirmation (check spam if you don't see it)</li>
+                        <li>Click the link in the email to complete our detailed form</li>
+                        <li>We'll review your information and contact you within 24 hours</li>
+                    </ol>
+                </div>
+                
+                <div class="success-actions">
+                    <a href="/" class="btn btn-outline">
+                        <i class="fas fa-home"></i> Back to Home
+                    </a>
+                    <a href="mailto:support@yourwebsite.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Support
+                    </a>
+                </div>
+                
+                <p class="success-note">
+                    <i class="fas fa-info-circle"></i>
+                    If you don't receive an email within 5 minutes, please contact us at support@yourwebsite.com
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Include footer -->
+    
+    <script src="js/main.js"></script>
+    <script>
+        // Auto-show upsell modal after 3 seconds
+        setTimeout(() => {
+            showUpsell();
+        }, 3000);
+    </script>
+</body>
+</html>
